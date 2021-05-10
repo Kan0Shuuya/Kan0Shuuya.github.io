@@ -3,21 +3,20 @@ body{
     font-family: Helvetica;
 }
 
-nav{
-    height:314px;
-}
 ul{
-    height:113px;
+    height:75px;
+    padding: 5px;
     list-style: none;
     display: flex;
     width: 100%;
     margin-top: 0px;
-    padding: 8px;
     background-color: #206876;
 }
 
 button.navBtn{
     background-color:#8AAEB5;
+    margin-top: 5.5%;
+    margin-left: 20%
 }
 
 li{
