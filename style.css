@@ -8,7 +8,11 @@ ul{
     width: 100%;
     margin-top: 0px;
     padding: 8px;
-    background-color: #015666;
+    background-color: #206876;
+}
+
+button.navBtn{
+    background-color:#8AAEB5;
 }
 
 li{
