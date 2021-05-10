@@ -1,8 +1,13 @@
 body{
     margin: 0px;
+    font-family: Helvetica;
 }
 
+nav{
+    height:314px;
+}
 ul{
+    height:113px;
     list-style: none;
     display: flex;
     width: 100%;
