@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     font-family: Helvetica;
+    min-height: 100%;
+    background-color: #216477;
 }
 
 ul{
@@ -9,7 +11,7 @@ ul{
     list-style: none;
     display: flex;
     width: 100%;
-    margin-top: 0px;
+    margin: 0px;
     background-color: #206876;
 }
 
@@ -19,6 +21,19 @@ button.navBtn{
     margin-left: 20%
 }
 
+button.navBtn:hover{
+    background-color: #16738f;
+    border-color: #16738f;
+}
+
 li{
     width: 25%;
+}
+
+#rightMenu{
+    float:right;
+    background-color:#6594A1;
+    height: 100%;
+    width: 25%;
+    margin:0px;
 }
