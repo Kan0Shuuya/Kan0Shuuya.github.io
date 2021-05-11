@@ -37,3 +37,14 @@ li{
     width: 25%;
     margin:0px;
 }
+
+input#reg{
+    position:absolute;
+    bottom: 5%;
+    left: 85.5%;    
+}
+
+img#avatar{
+    width: 200px;
+    height: 200px;
+}
