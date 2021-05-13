@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <nav>
         <ul id="gameMenu">
-            <li><img src="img/logo.jpg" alt="RPG logo"></li>
+            <div id="wrapImg">
+            <li><img src="img/logo.jpg" alt="RPG logo" id="userLogo"></li>
+            </div>
             <li><button class = "navBtn">Ваш персанаж</button> </li>
             <li><button class = "navBtn">Поход</button> </li>
             <li><button class = "navBtn">Инвентарь</button> </li>
         </ul>
     </nav>
-    <div id="rightMenu">
+    <div id="leftMenu">
         <img src="" alt="Иконка" id="avatar">
         <p><input type="button" value=" Регистрация " id="reg"></p> 
     </div>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <div id="saveLoad">
+        <p><input type="button" value=" Сохраниться " id="save"></p>
+    </div>
 </body>
 </html>

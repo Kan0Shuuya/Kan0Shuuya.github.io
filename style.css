@@ -3,6 +3,7 @@ body{
     font-family: Helvetica;
     min-height: 100%;
     background-color: #216477;
+    overflow:  hidden;
 }
 
 ul{
@@ -30,21 +31,27 @@ li{
     width: 25%;
 }
 
-#rightMenu{
-    float:right;
+#leftMenu{
+    position: absolute;
     background-color:#6594A1;
     height: 100%;
-    width: 25%;
+    width: 15%;
     margin:0px;
+    padding-bottom: 15px;
 }
 
 input#reg{
-    position:absolute;
-    bottom: 5%;
-    left: 85.5%;    
+    position: absolute;   
+    width: 35%;
+    bottom: 0%;
+    border-radius: 5%;
+    margin-left: 27.5%;
+    margin-bottom: 10%;
 }
-
-img#avatar{
-    width: 200px;
-    height: 200px;
+#wrapImg{
+    display: table-cell;
+    vertical-align: middle;
+}
+#avatar{
+    margin: 10%;
 }
