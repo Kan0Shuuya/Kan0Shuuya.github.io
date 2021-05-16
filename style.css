@@ -34,6 +34,7 @@ li{
 #leftMenu{
     position: absolute;
     background-color:#6594A1;
+    min-width: 220px;
     height: 100%;
     width: 15%;
     margin:0px;
@@ -48,10 +49,13 @@ input#reg{
     margin-left: 27.5%;
     margin-bottom: 10%;
 }
+
 #wrapImg{
     display: table-cell;
     vertical-align: middle;
 }
+
 #avatar{
     margin: 10%;
 }
+
